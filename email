@@ -3,7 +3,7 @@ import smtplib
 
 from_addr='××××××××@qq.com'
 password=×××××××××#qq用授权码而不是登入密码
-to_addr='××××××××163.com'
+to_addr='××××××××@163.com'
 smtp_server='smtp.qq.com'
 msg=MIMEText('hello,send by Python...','plain','utf-8')
 msg['subject']='hello world'
